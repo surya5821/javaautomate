@@ -107,7 +107,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<path>/CounterWebApp</path>
+					<path>/CounterWebApp.war</path>
 				</configuration>
 			</plugin>
 
