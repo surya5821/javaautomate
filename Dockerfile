@@ -1,5 +1,6 @@
 FROM suryaindia/maven
 MAINTAINER surya "surya.mekala@gmail.com"
+SHELL ["/bin/bash", "-lc"]
 RUN mkdir -p /opt/javaproject/
 RUN cd /opt/javaproject/
 RUN yum install -y git
